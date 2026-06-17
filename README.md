@@ -1,7 +1,7 @@
 # 1C: Адаптер Kafka - отчеты тестирования
 
 [![Allure Report](https://img.shields.io/badge/Allure-Report-brightgreen)](https://allurereport.org/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://shadobaai.github.io/kafka-adapter-tests-reports/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://shadobaai.github.io/kafka-adapter-tests-reports/latest/)
 
 Репозиторий хранит опубликованные HTML-отчеты тестирования
 [1C: Адаптер Kafka](https://github.com/ShadobaAI/kafka-adapter).

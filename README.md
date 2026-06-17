@@ -1,7 +1,7 @@
 # 1C: Адаптер Kafka - отчеты UI-тестов
 
 [![Allure Report](https://img.shields.io/badge/Allure-Report-brightgreen)](https://allurereport.org/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://shadobaai.github.io/kafka-adapter-tests-ui-reports/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://shadobaai.github.io/kafka-adapter-tests-reports/)
 
 Репозиторий хранит опубликованные HTML-отчеты UI-тестов
 [1C: Адаптер Kafka](https://github.com/ShadobaAI/kafka-adapter).
@@ -21,7 +21,7 @@ HTML-отчет можно открыть в браузере из summary workf
 Пример ссылки на отчет:
 
 ```text
-https://shadobaai.github.io/kafka-adapter-tests-ui-reports/<run_id>-<run_attempt>/
+https://shadobaai.github.io/kafka-adapter-tests-reports/<run_id>-<run_attempt>/
 ```
 
 ## Публикация

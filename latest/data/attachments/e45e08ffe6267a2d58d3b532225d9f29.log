@@ -1,0 +1,40 @@
+[main] INFO com.clouds42.Commands.CoverServer - Create server socket
+[ForkJoinPool.commonPool-worker-1] INFO com.clouds42.Commands.CoverServer - Set socket listener...
+[main] WARN org.eclipse.jetty.util.ssl.SslContextFactory.config - Trusting all certificates configured for Client@e1de817[provider=null,keyStore=null,trustStore=null]
+[main] WARN org.eclipse.jetty.util.ssl.SslContextFactory.config - No Client EndPointIdentificationAlgorithm configured for Client@e1de817[provider=null,keyStore=null,trustStore=null]
+[main] INFO com.clouds42.Utils - Project directory: /coverage-source
+[main] INFO com.clouds42.Utils - Reading configuration sources from root path: /coverage-source
+[main] INFO com.clouds42.Utils - Configuration sources reading DONE
+[main] INFO com.clouds42.DebugClient - Configured 1C:Enterprise Runtime debug HTTP client: http://127.0.0.1:1550 : 6440da31-f1d6-4859-ac4d-6ed07bf2ad18 : DefAlias
+[main] INFO com.clouds42.Commands.CoverageCommand - Connecting to debugger...
+[main] INFO com.clouds42.Commands.CoverageCommand - Setup settings...
+[main] INFO com.clouds42.Commands.CoverageCommand - Setup targets...
+[main] INFO com.clouds42.Commands.CoverageCommand - Current debug targets size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Enabling profiling...
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 1
+[main] INFO com.clouds42.Commands.CoverageCommand - Command: targetStarted
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 2
+[main] INFO com.clouds42.Commands.CoverageCommand - Command: measureResultProcessing
+[main] INFO com.clouds42.Commands.CoverageCommand - Found MEASURE_RESULT_PROCESSING command
+[main] INFO com.clouds42.Commands.CoverageCommand - Command: targetQuit
+[main] INFO com.clouds42.Commands.SendMessageCommand - Trying to send command to main application...
+[main] INFO com.clouds42.Commands.SendMessageCommand - Command send finished: stop
+[main] INFO com.clouds42.Commands.SendMessageCommand - Try: 0
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Commands.CoverServer - Get command: stop
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Commands.CoverageCommand - Disabling profiling...
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Utils - Lines to cover: 191022
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Utils - Covered lines: 1121
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Utils - Coverage: 0.58%
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Commands.CoverageCommand - Bye!
+[main] INFO com.clouds42.Commands.SendMessageCommand - Command success: stop
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Disconnecting from dbgs...
+[main] INFO com.clouds42.Commands.CoverServer - Close server socket
+[main] INFO com.clouds42.Commands.CoverageCommand - Main thread finished
+[Thread-10] INFO com.clouds42.Commands.CoverageCommand - Disconnecting from dbgs...
+[Thread-10] ERROR com.clouds42.Commands.CoverageCommand - java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: HttpClient@5e82df6a{STOPPED} is stopped
+[Thread-10] INFO com.clouds42.Commands.CoverageCommand - Main thread finished

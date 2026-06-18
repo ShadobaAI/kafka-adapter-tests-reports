@@ -1,1 +1,0 @@
-Файл покрытия не найден: assets/ui/genericCoverage.xml

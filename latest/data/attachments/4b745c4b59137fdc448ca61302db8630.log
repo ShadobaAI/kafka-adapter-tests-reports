@@ -1,0 +1,12 @@
+
+(1cv8c:368): dbind-WARNING **: 14:49:11.255: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+
+(process:481): libsoup-WARNING **: 14:49:30.886: Failed to execute query: database is locked
+
+(process:481): libsoup-WARNING **: 14:49:30.886: Failed to execute query: no such table: soup_hsts_policies
+
+(process:498): libsoup-WARNING **: 14:49:30.887: Failed to execute query: database is locked
+
+(process:498): libsoup-WARNING **: 14:49:30.887: Failed to execute query: no such table: soup_hsts_policies
+
+(1cv8c:707): dbind-WARNING **: 14:49:37.813: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

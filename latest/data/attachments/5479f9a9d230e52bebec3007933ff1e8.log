@@ -1,0 +1,68 @@
+[main] INFO com.clouds42.Commands.CoverServer - Create server socket
+[ForkJoinPool.commonPool-worker-1] INFO com.clouds42.Commands.CoverServer - Set socket listener...
+[main] WARN org.eclipse.jetty.util.ssl.SslContextFactory.config - Trusting all certificates configured for Client@e1de817[provider=null,keyStore=null,trustStore=null]
+[main] WARN org.eclipse.jetty.util.ssl.SslContextFactory.config - No Client EndPointIdentificationAlgorithm configured for Client@e1de817[provider=null,keyStore=null,trustStore=null]
+[main] INFO com.clouds42.Utils - Project directory: /coverage-project
+[main] INFO com.clouds42.Utils - Reading configuration sources from root path: /coverage-project
+[main] INFO com.clouds42.Utils - Configuration sources reading DONE
+[main] INFO com.clouds42.DebugClient - Configured 1C:Enterprise Runtime debug HTTP client: http://127.0.0.1:1550 : 8867f149-9f12-4f28-97e9-7a77c83ed8d8 : DefAlias
+[main] INFO com.clouds42.Commands.CoverageCommand - Connecting to debugger...
+[main] INFO com.clouds42.Commands.CoverageCommand - Setup settings...
+[main] INFO com.clouds42.Commands.CoverageCommand - Setup targets...
+[main] INFO com.clouds42.Commands.CoverageCommand - Current debug targets size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Enabling profiling...
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 1
+[main] INFO com.clouds42.Commands.CoverageCommand - Command: targetStarted
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 2
+[main] INFO com.clouds42.Commands.CoverageCommand - Command: measureResultProcessing
+[main] INFO com.clouds42.Commands.CoverageCommand - Found MEASURE_RESULT_PROCESSING command
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 698ec00f-bf75-420e-81ab-a98808daf3f7, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id c7da3115-3cee-4282-a2f2-4e0b5558e4fc, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id f78ffd16-5bd4-421a-99af-9cf5f126d960, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 26cea519-19d0-4707-be0a-1a43fde6e563, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 8811ea1a-1221-47b7-9574-3f36ff15a3cf, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 44b8472b-0f70-49cc-8f71-9c9d3e9cfbcc, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id d74dfd31-2016-435b-8652-15fdbca59490, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 235be246-6c28-4771-923d-cffd541ec26e, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 6a8de94b-7b62-4d91-80df-e47c4ef90864, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id ac5f945e-2d03-44fb-a8cf-5d786194cefd, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id e5dca369-dc9a-4332-a509-f734b8787e13, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 8170a27d-45e9-48b1-860b-c2d9cc5961cd, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 5b105084-c4ba-4ff6-9196-8b3e3a9991e2, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 62ce318e-7931-4eaf-a48d-20181408b5fb, property id d22e852a-cf8a-4f77-8ccb-3548e7792bea in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 55d1909e-f552-441f-8e14-47d2e604cf6a, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 2976c29f-f482-463d-8f6e-6a632fb50893, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 98edbda8-2511-4743-b643-28934af0ed74, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id c205ddad-54ed-476f-85cd-e133313fe3a5, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 79c15db6-6066-4fe5-b30e-3196b6ca3d66, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id 514e95b8-2fdd-46f7-89bf-7d1a3d9d6e1b, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id b722d6e1-fd6f-4bb4-923d-01764393722d, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Couldn't find object id f1c08fed-f3db-4f72-8a8e-7c626b8cc130, property id d5963243-262e-4398-b4d7-fb16d06484f6 in sources!
+[main] INFO com.clouds42.Commands.CoverageCommand - Command: targetQuit
+[main] INFO com.clouds42.Commands.SendMessageCommand - Trying to send command to main application...
+[main] INFO com.clouds42.Commands.SendMessageCommand - Command send finished: stop
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Commands.CoverServer - Get command: stop
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Commands.CoverageCommand - Disabling profiling...
+[main] INFO com.clouds42.Commands.SendMessageCommand - Try: 0
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Utils - Lines to cover: 8562
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Utils - Covered lines: 68
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Utils - Coverage: 0.79%
+[ForkJoinPool.commonPool-worker-2] INFO com.clouds42.Commands.CoverageCommand - Bye!
+[main] INFO com.clouds42.Commands.SendMessageCommand - Command success: stop
+[main] INFO com.clouds42.Commands.CoverageCommand - Ping result commands size: 0
+[main] INFO com.clouds42.Commands.CoverageCommand - Disconnecting from dbgs...
+[main] INFO com.clouds42.Commands.CoverServer - Close server socket
+[main] INFO com.clouds42.Commands.CoverageCommand - Main thread finished
+[Thread-10] INFO com.clouds42.Commands.CoverageCommand - Disconnecting from dbgs...
+[Thread-10] ERROR com.clouds42.Commands.CoverageCommand - java.util.concurrent.ExecutionException: java.util.concurrent.RejectedExecutionException: HttpClient@5e82df6a{STOPPED} is stopped
+[Thread-10] INFO com.clouds42.Commands.CoverageCommand - Main thread finished

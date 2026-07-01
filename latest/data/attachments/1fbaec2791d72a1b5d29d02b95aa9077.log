@@ -1,4 +1,0 @@
-
-(1cv8c:369): dbind-WARNING **: 16:37:23.781: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
-
-(1cv8c:710): dbind-WARNING **: 16:37:50.085: AT-SPI: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files

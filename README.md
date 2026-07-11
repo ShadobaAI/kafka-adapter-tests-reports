@@ -1,64 +1,63 @@
-# 1C: Адаптер Kafka - отчеты тестирования
+# 1C: Адаптер Kafka — отчёты тестирования
 
 [![Allure Report](https://img.shields.io/badge/Allure-Report-brightgreen)](https://allurereport.org/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://shadobaai.github.io/kafka-adapter-tests-reports/latest/)
 
-Репозиторий хранит опубликованные HTML-отчеты тестирования
-[1C: Адаптер Kafka](https://github.com/ShadobaAI/kafka-adapter).
+Репозиторий хранит опубликованные HTML-отчёты тестирования проекта [1C: Адаптер Kafka](https://github.com/ShadobaAI/kafka-adapter). Отчёты доступны через GitHub Pages.
 
-## Назначение
+## Состав отчёта
 
-Репозиторий используется как статическое хранилище общего Allure-отчета, который формируется в release pipeline.
+Для каждого запуска release pipeline публикуются:
 
-В одном отчете публикуются:
+- [Allure UI](https://allurereport.org/) — результаты UI-тестов;
+- [Allure Unit](https://allurereport.org/) — результаты unit-тестов;
+- статический отчёт SonarQube.
 
-- результаты unit-тестов;
-- результаты UI-тестов;
-- анализ покрытия unit-тестов;
-- анализ покрытия UI-тестов;
-- диагностические логи запуска тестов и сбора покрытия.
-
-Опубликованный HTML-отчет можно открыть из summary workflow, из комментария Allure в pull request или по ссылке,
-которая добавляется в описание релиза.
+Отчёты публикуются только если доступны все три артефакта.
 
 ## Структура
 
-- `latest/` - последний опубликованный общий отчет тестирования.
-- `<run_id>-<run_attempt>/` - отчет конкретного запуска GitHub Actions.
+- `latest/` — копии отчётов последнего опубликованного запуска;
+- `<run_id>-<run_attempt>/` — отчёты конкретного запуска GitHub Actions.
 
-Пример ссылки на отчет:
+Внутри каждого каталога запуска расположены:
+
+- `allure-ui/`;
+- `allure-unit/`;
+- `sonar/`.
+
+Примеры ссылок:
 
 ```text
-https://shadobaai.github.io/kafka-adapter-tests-reports/<run_id>-<run_attempt>/
+https://shadobaai.github.io/kafka-adapter-tests-reports/<run_id>-<run_attempt>/allure-ui/
+https://shadobaai.github.io/kafka-adapter-tests-reports/<run_id>-<run_attempt>/allure-unit/
+https://shadobaai.github.io/kafka-adapter-tests-reports/<run_id>-<run_attempt>/sonar/
 ```
 
-Ссылка `latest`:
+Последние опубликованные отчёты:
 
 ```text
-https://shadobaai.github.io/kafka-adapter-tests-reports/latest/
+https://shadobaai.github.io/kafka-adapter-tests-reports/latest/allure-ui/
+https://shadobaai.github.io/kafka-adapter-tests-reports/latest/allure-unit/
+https://shadobaai.github.io/kafka-adapter-tests-reports/latest/sonar/
 ```
 
 ## Публикация
 
-Публикация выполняется автоматически workflow `Release / Tests` в репозитории
-[`ShadobaAI/kafka-adapter`](https://github.com/ShadobaAI/kafka-adapter).
+Публикацию выполняет вызываемый workflow `Release / Publish Reports` из репозитория [`ShadobaAI/kafka-adapter`](https://github.com/ShadobaAI/kafka-adapter).
 
-Workflow:
+Workflow загружает артефакты `allure-ui-report`, `allure-unit-report` и `sonar-static-report`, затем:
 
-1. Выполняет unit-тесты и UI-тесты.
-2. Собирает покрытие для unit-тестов и UI-тестов в формате `genericCoverage.xml`.
-3. Объединяет результаты тестов, отчеты покрытия и диагностические логи в общий Allure report.
-4. Копирует общий отчет в этот репозиторий.
-5. Обновляет каталог `latest/`.
-6. Удаляет старые каталоги запусков согласно настройке хранения.
-7. Добавляет ссылку на опубликованный отчет в описание релиза.
+1. Копирует их в каталог запуска и в `latest/`.
+2. Удаляет отчёты старых запусков, сохраняя последние 30.
+3. Публикует изменения в ветку `main` этого репозитория.
+4. Добавляет ссылки на отчёты в summary workflow и публикует Allure summaries.
 
-Ручные изменения внутри сгенерированных каталогов отчетов не предполагаются: следующий запуск workflow
-может перезаписать или удалить эти файлы.
+Каталоги отчётов генерируются автоматически. Ручные изменения в них будут перезаписаны либо удалены при следующей публикации.
 
 ## GitHub Pages
 
-Для репозитория должен быть включен GitHub Pages:
+Для репозитория должен быть включён GitHub Pages:
 
 - source: deploy from a branch;
 - branch: `main`;

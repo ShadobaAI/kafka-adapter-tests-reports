@@ -1,0 +1,1 @@
+{"id":"959aef7a0a626f055637184e27846c05.250922ed9efa0ff8ee3ca227fef38149","fullName":"Обр_кфкИнтеграция_МО.ОтправитьСообщение_СериализуетЗаголовки [Сервер]","name":"ОтправитьСообщение_СериализуетЗаголовки({\"first\":\"one\",\"second\":\"two\"}, first,one;second,two, Истина)","status":"passed","testResultsByEnv":{"default":"43772e92ad59c1bd7d7b66684cf9aef5"}}

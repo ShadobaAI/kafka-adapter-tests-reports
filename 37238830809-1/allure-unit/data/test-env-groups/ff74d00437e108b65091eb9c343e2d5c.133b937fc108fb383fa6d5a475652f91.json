@@ -1,0 +1,1 @@
+{"id":"ff74d00437e108b65091eb9c343e2d5c.133b937fc108fb383fa6d5a475652f91","fullName":"Обр_кфкИнтеграция_МО.AVRO_ОтклоняетНекорректныеДанные [Сервер]","name":"AVRO_ОтклоняетНекорректныеДанные(Схема, Истина, Ложь, Invalid data type for avroData. Expected string or binary data)","status":"passed","testResultsByEnv":{"default":"1655be0461c787a3ddb897869b583194"}}

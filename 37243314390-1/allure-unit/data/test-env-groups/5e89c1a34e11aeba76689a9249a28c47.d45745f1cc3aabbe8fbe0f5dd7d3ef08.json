@@ -1,0 +1,1 @@
+{"id":"5e89c1a34e11aeba76689a9249a28c47.d45745f1cc3aabbe8fbe0f5dd7d3ef08","fullName":"Обр_кфкИнтеграция_МО.ОтправитьСообщениеAVRO_СериализуетЗаголовки [Сервер]","name":"ОтправитьСообщениеAVRO_СериализуетЗаголовки({\"first\":\"one\",\"second\":\"two\"}, first,one;second,two, Ложь)","status":"passed","testResultsByEnv":{"default":"60a7e27a212b6ac467d6935b6231ecb7"}}

@@ -1,0 +1,1 @@
+{"id":"0418fed478c51de747e6fdc0abb11b0d.bd681ddc1dc18595b13cd51fa1c0b519","fullName":"Обр_кфкИнтеграция_МО.УстановитьПозицииЧтения_ОтклоняетНекорректныеПоля [Сервер]","name":"УстановитьПозицииЧтения_ОтклоняетНекорректныеПоля([{\"topic\":\"invalid-position\",\"partition\":-1,\"offset\":0}])","status":"passed","testResultsByEnv":{"default":"22c84490f0e09d606efb64b3a90cbcd1"}}

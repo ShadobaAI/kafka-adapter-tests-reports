@@ -1,0 +1,1 @@
+{"id":"37ae1e8d9d3a78a039ae36707dcab630.250922ed9efa0ff8ee3ca227fef38149","fullName":"Обр_кфкИнтеграция_МО.ОтправитьСообщениеProtobuf_СериализуетЗаголовки [Сервер]","name":"ОтправитьСообщениеProtobuf_СериализуетЗаголовки({\"first\":\"one\",\"second\":\"two\"}, first,one;second,two, Истина)","status":"passed","testResultsByEnv":{"default":"fed85b4a098390eecc50da9f02a92ff7"}}

@@ -13,7 +13,7 @@
 - [Allure Unit](https://allurereport.org/) — результаты unit-тестов;
 - статический отчёт SonarQube.
 
-Отчёты публикуются только если доступны все три артефакта.
+Доступные отчёты публикуются независимо друг от друга, в том числе при аварийном завершении тестов. Для отсутствующего отчёта создаётся страница-заглушка со ссылкой на логи и артефакты запуска CI. Отсутствие отчёта не означает успешного прохождения тестов.
 
 ## Структура
 
@@ -36,11 +36,10 @@ https://shadobaai.github.io/kafka-adapter-tests-reports/<run_id>-<run_attempt>/s
 
 Последние опубликованные отчёты:
 
-```text
-https://shadobaai.github.io/kafka-adapter-tests-reports/latest/allure-ui/
-https://shadobaai.github.io/kafka-adapter-tests-reports/latest/allure-unit/
-https://shadobaai.github.io/kafka-adapter-tests-reports/latest/sonar/
-```
+- [Все отчёты последнего опубликованного запуска](https://shadobaai.github.io/kafka-adapter-tests-reports/latest/).
+- [Allure UI — интерфейсные тесты](https://shadobaai.github.io/kafka-adapter-tests-reports/latest/allure-ui/).
+- [Allure Unit — модульные тесты](https://shadobaai.github.io/kafka-adapter-tests-reports/latest/allure-unit/).
+- [SonarQube — статический анализ и покрытие](https://shadobaai.github.io/kafka-adapter-tests-reports/latest/sonar/).
 
 ## Публикация
 
@@ -48,7 +47,7 @@ https://shadobaai.github.io/kafka-adapter-tests-reports/latest/sonar/
 
 Workflow загружает артефакты `allure-ui-report`, `allure-unit-report` и `sonar-static-report`, затем:
 
-1. Копирует их в каталог запуска и в `latest/`.
+1. Копирует доступные отчёты и заглушки для отсутствующих в каталог запуска и в `latest/`. Последний содержит результат последнего завершившего публикацию запуска.
 2. Удаляет отчёты старых запусков, сохраняя последние 30.
 3. Публикует изменения в ветку `main` этого репозитория.
 4. Добавляет ссылки на отчёты в summary workflow и публикует Allure summaries.

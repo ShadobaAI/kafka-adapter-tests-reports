@@ -1,0 +1,3 @@
+﻿"Использование","Адрес"
+"Истина","broker-ui.invalid:9092"
+"Ложь","broker-ui-backup.invalid:9093"

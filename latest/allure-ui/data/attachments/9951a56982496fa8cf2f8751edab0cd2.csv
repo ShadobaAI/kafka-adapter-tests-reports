@@ -1,0 +1,5 @@
+﻿"Ключ","Значение","Режим пароля"
+"client.id","VA-клиент","Ложь"
+"socket.timeout.ms","500","Ложь"
+"socket.keepalive.enable","true","Ложь"
+"security.protocol","ssl","Ложь"

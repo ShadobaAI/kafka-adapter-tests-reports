@@ -1,0 +1,5 @@
+﻿"Ключ","Значение","Режим пароля"
+"client.id","rdkafka","Ложь"
+"socket.timeout.ms","60 000","Ложь"
+"socket.keepalive.enable","false","Ложь"
+"security.protocol","plaintext","Ложь"
